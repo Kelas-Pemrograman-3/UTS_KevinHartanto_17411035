@@ -1,0 +1,50 @@
+h1{font-family: Arial, Helvetica, sans-serif;color:rgb(43, 43, 235);}
+
+#card{
+    background: #fbfbfb;
+    border-radius: 20px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 500px;
+    margin: 6rem auto 8.1rem auto;
+    width: 400px;        
+}
+
+#cards{
+    background: #fbfbfb;
+    border-radius: 20px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 900px;
+    margin: 6rem auto 8.1rem auto;
+    width: 400px;        
+}
+
+body {
+    background: rgb(14, 14, 235);
+}
+
+input[type=text], input[type=password],input[type=email],input[type=number],input[type=date]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+}
+
+button{
+    padding:10px 55px;
+    border-radius: 25px;
+    margin: auto 10px;
+    border:none;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #FF8600;
+    font-weight: bold;
+    color:#fff;
+    font-size:18px;
+
+}

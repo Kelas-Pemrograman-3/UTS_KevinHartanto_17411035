@@ -1,0 +1,109 @@
+#cards{
+    background: #fbfbfb;
+    border-radius: 20px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 800px;
+    margin: 6rem auto 8.1rem auto;
+    width:600px;        
+}
+
+h1{font-family: Arial, Helvetica, sans-serif; color:rgb(43, 43, 235);}
+
+nav{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+nav ul {
+    background: rgb(44, 44, 207);
+    list-style: none ;
+    margin:-10px;
+    position: relative;
+    display: inline-table;
+    width: 120%;
+    
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a:hover {
+    background:rgb(69, 69, 219);
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;   
+    text-decoration: none;   
+    color: white;
+}
+
+nav ul ul{
+    background:rgb(44, 44, 207);
+    border-radius: 0px;
+    padding: 0%;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul ul li {
+    float: none ;
+    border-top: 1px;
+    border-bottom: 1px;
+    position: relative;
+}
+
+nav ul ul li a{
+    padding: 15px 30px ;
+    color:white;
+}
+
+nav ul ul li a :hover {
+    background-color:blanchedalmond;
+}
+
+nav ul ul{
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+    width: 250px;
+}
+
+
+body {
+    background:skyblue;
+}
+
+input[type=text], input[type=password],input[type=email],input[type=number],input[type=date]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+}
+
+h4{font-size: 40px;}
+
+button{
+    padding:10px 55px;
+    border-radius: 25px;
+    margin: auto 10px;
+    border:none;
+    margin-top: 30px;
+    cursor: pointer;
+    background: #FF8600;
+    font-weight: bold;
+    color:#fff;
+    font-size:18px;
+
+}
